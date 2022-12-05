@@ -33,4 +33,4 @@ Muitas das mesmas considerações discutidas para aplicativos cliente também se
 - inicie o containner Redis
  e o Redis  execute: `docker run -d -p 6379:6379 -i -t redis`
 
-Agora vamos realizar o start da aplicação `mvn compile quarkus:dev`
+- Agora vamos realizar o start da aplicação `mvn compile quarkus:dev`
