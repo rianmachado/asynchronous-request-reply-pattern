@@ -27,5 +27,10 @@ Muitas das mesmas considerações discutidas para aplicativos cliente também se
 * Docker (Para execução do Postgres)
 
 ## Start da aplicação
-Após iniciar o containner Postgres(veja commando-docker.txt) execute: `mvn compile quarkus:dev`
+- inicie o containner Postgres
+`docker run --ulimit memlock=-1:-1 -it --rm=true --memory-swappiness=0 --name quarkus_test -e POSTGRES_USER=quarkus_test -e POSTGRES_PASSWORD=quarkus_test -e POSTGRES_DB=quarkus_test -p 5432:5432 postgres:11.5`
 
+- inicie o containner Redis
+ e o Redis  execute: `docker run -d -p 6379:6379 -i -t redis`
+
+Agora vamos realizar o start da aplicação `mvn compile quarkus:dev`
