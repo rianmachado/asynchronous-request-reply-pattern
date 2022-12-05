@@ -1,0 +1,10 @@
+https://www.concretepage.com/java/java-8/java-completablefuture-supplyasync
+
+
+https://stackoverflow.com/questions/71219758/how-to-build-a-async-rest-endpoint-that-calls-blocking-action-in-worker-thread-a
+
+https://programtalk.com/java-more-examples/@io.smallrye.common.annotation.NonBlocking/
+
+https://smallrye.io/docs/smallrye-fault-tolerance/5.4.0/usage/extra.html
+
+https://www.concretepage.com/java/java-8/java-completablefuture-supplyasync
