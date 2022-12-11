@@ -23,8 +23,7 @@ Muitas das mesmas considerações discutidas para aplicativos cliente também se
 
 ## Pré requisitos
 * Java 11 and later
-* Lombok
-* Docker (Para execução do Postgres)
+* Docker (Para execução do Postgres e Redis)
 
 ## Start da aplicação
 - inicie o containner Postgres
